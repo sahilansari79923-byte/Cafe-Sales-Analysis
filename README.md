@@ -1,11 +1,11 @@
 # Cafe Sales Analysis
 
-Six months of coffee shop transaction data, three NYC locations, 149,116 rows. I built this in Excel — Power Query for cleaning, Power Pivot for the data model, DAX for measures, and a dashboard with slicers on top.
+Six months of cafe shop transaction data, three NYC locations, 149,116 rows. I built this in Excel — Power Query for cleaning, Power Pivot for the data model, DAX for measures, and a dashboard with slicers on top.
 
 The questions I was trying to answer: when are customers actually showing up, which products are making the money, and do the three stores perform differently or are they basically the same?
 
 ---
-
+![](https://github.com/sahilansari79923-byte/Cafe-Sales-Analysis/blob/main/snapshort%20dashboard.png)
 ## Dataset
 
 - 149,116 transactions, Jan–Jun 2023
@@ -30,7 +30,7 @@ Then built four custom columns from scratch:
 After all that, loaded into the data model.
 
 ---
-
+![](https://github.com/sahilansari79923-byte/Cafe-Sales-Analysis/blob/main/snapshot%20%20pivot%20table%20and%20measures.png)
 ## What I built in Excel
 
 Loaded 149K rows into Power Pivot and wrote DAX measures for Total Sales and Average Order Value. Built separate pivot tables for each angle of the analysis — by store, by month, by weekday, by hour, by category, by product. Pulled everything into a single dashboard sheet with KPI cards at the top and charts below. Connected two slicers (Month Name and Day Name) so all charts filter together.
